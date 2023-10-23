@@ -64,7 +64,7 @@ export default function SignIn() {
         <View style={{ marginTop: 32 }}>
           <Text
             style={{ fontWeight: "500" }}
-            onPress={() => router.push("/sign-up")}
+            onPress={() => router.replace("/sign-up")}
           >
             Click Here To Create A New Account
           </Text>
